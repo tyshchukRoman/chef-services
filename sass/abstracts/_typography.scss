@@ -1,12 +1,29 @@
-$ff-sans: "Open Sans", sans-serif;
-
+/*
+ * Font Sizes
+ */
 $font-sizes: (
-  900: 3.75rem,
-  800: 3rem,
-  600: 1.5rem,
+  900: 5rem,
+  800: 3.75rem,
+  600: 1.6875rem,
   500: 1.3125rem,
   400: 1.125rem,
+  300: 1rem,
 );
 
+/*
+ * Font Weights
+ */
 $fw-400: 400;
 $fw-700: 700;
+
+$fw-regular: 400;
+$fw-bold: 700;
+
+/*
+ * Font Families
+ */
+$ff-sans: "Lato", sans-serif;
+$ff-serif: "Abril Fatface", sans-serif;
+
+$ff-base: $ff-sans;
+$ff-accent: $ff-serif;
