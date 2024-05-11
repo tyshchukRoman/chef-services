@@ -4,38 +4,122 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Chef Site</title>
     <link rel="stylesheet" href="/sass/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <section class="section | bg-neutral-200">
-      <div class="container">
-        <header class="section-header section-header--decorated">
-          <h2 class="fs-800">This will be my title</h2>
-          <p class="fs-600 uppercase">This is a subtitle rith here</p>
-        </header>
+    <header class="primary-header | margin-block-start-24">
+      <img
+        src="/assets/logo.avif"
+        alt="Chef John Wellington"
+        class="logo | mx-auto"
+      />
+      <nav class="primary-navigation | margin-block-start-24">
+        <ul class="flex-group mx-auto">
+          <li><a href="#about">About</a></li>
+          <li><a href="#meals">Meals</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-      </div>
-    </section>
+    <main>
+      <section class="hero | bg-neutral-900 clr-neutral-100 text-center">
+        <div class="container">
+          <h1 class="fs-900 ff-accent margin-block-end-48">
+            Homecooked meals delivered straight to your home
+          </h1>
+          <div class="flex-group mx-auto">
+            <button class="button button--accent">Place order</button>
+            <a href="#about" class="button button--outline">More info</a>
+          </div>
+        </div>
+      </section>
 
-    <section class="section | bg-neutral-900 clr-neutral-100 text-center">
-      <div class="container">
-        <header class="section-header section-header--decorated">
-          <h2 class="fs-800">This will be my title</h2>
-          <p class="fs-600 uppercase">This is a subtitle rith here</p>
-        </header>
+      <section class="section" id="about">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <picture>
+                <source srcset="assets/about.avif" type="image/avif" />
+                <source srcset="assets/about.webp" type="image/webp" />
+                <img class="shift-up box-shadow-1" src="about.jpg" alt="" />
+              </picture>
+            </div>
+            <div class="flow">
+              <header class="section-header">
+                <h2 class="fs-800 ff-accent clr-primary-500">
+                  Get ready food without the hassle
+                </h2>
+                <p class="fs-600 uppercase">
+                  we doo all the work, so all you have to do is sit back and
+                  enjoy
+                </p>
+              </header>
+              <p class="lead">it's ready to go</p>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-        <p>Lorem ipsum dolor sit amet, qui minim labore</p>
-      </div>
-    </section>
+      <section class="section | bg-neutral-200 text-center">
+        <div class="container">
+          <header class="section-header section-header--decorated">
+            <h2 class="ff-accent fs-800 clr-primary-500">We make great food</h2>
+            <p>
+              Cooking is our passion, with quality and freshness being of the
+              utmost importance
+            </p>
+          </header>
+
+          <div class="grid-auto-fit">
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900">Fresh ingredients</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900">Ready for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900">Professional chef</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+            <div>
+              <h3 class="fs-500 fw-bold clr-neutral-900">Made with love</h3>
+              <p>
+                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
+                sint cillum sint consectetur cupidatat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script type="module" src="/main.js"></script>
   </body>
