@@ -16,8 +16,8 @@ $font-sizes: (
 $fw-400: 400;
 $fw-700: 700;
 
-$fw-regular: 400;
-$fw-bold: 700;
+$fw-regular: $fw-400;
+$fw-bold: $fw-700;
 
 /*
  * Font Families
