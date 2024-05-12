@@ -47,10 +47,10 @@
         <div class="container">
           <div class="even-columns">
             <div>
-              <picture>
+              <picture class="shift-up box-shadow-1">
                 <source srcset="assets/about.avif" type="image/avif" />
                 <source srcset="assets/about.webp" type="image/webp" />
-                <img class="shift-up box-shadow-1" src="about.jpg" alt="" />
+                <img src="about.jpg" alt="" />
               </picture>
             </div>
             <div class="flow">
@@ -119,7 +119,183 @@
           </div>
         </div>
       </section>
+
+      <section class="section | clr-neutral-100 bg-neutral-900" id="meals">
+        <div class="container container--wide">
+          <header
+            class="section-header section-header--decorated | text-center"
+          >
+            <h2 class="fs-800 ff-accent">Some of our meals</h2>
+            <p class="fs-600 uppercase">
+              Here are a fwe of our delicious, home-cooked meals that are sure
+              to please your taste buds.
+            </p>
+          </header>
+
+          <div class="even-columns">
+            <!-- column 1 -->
+            <div>
+              <figure class="interactive-figure">
+                <picture>
+                  <source srcset="assets/meal-01.avif" type="image/avif" />
+                  <source srcset="assets/meal-01.webp" type="image/webp" />
+                  <img
+                    src="assets/meal-01.jpg"
+                    loading="lazy"
+                    alt="A nicely presented plate with a cooked peice of salmon on top of a bed of vegetables, with more vegetables on top of it"
+                  />
+                </picture>
+                <figcaption>
+                  <h3 class="fs-500 fw-bold uppercase">About this meal</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam egestas egestas dignissim.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- column 2 -->
+            <div>
+              <figure class="interactive-figure">
+                <picture>
+                  <source srcset="assets/meal-02.avif" type="image/avif" />
+                  <source srcset="assets/meal-02.webp" type="image/webp" />
+                  <img
+                    src="assets/meal-02.jpg"
+                    loading="lazy"
+                    alt="Several steak tacos on a table, along with several limes"
+                  />
+                </picture>
+                <figcaption>
+                  <h3 class="fs-500 fw-bold uppercase">About this meal</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam egestas egestas dignissim.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- column 3 -->
+            <div>
+              <figure class="interactive-figure">
+                <picture>
+                  <source srcset="assets/meal-03.avif" type="image/avif" />
+                  <source srcset="assets/meal-03.webp" type="image/webp" />
+                  <img
+                    src="assets/meal-03.jpg"
+                    loading="lazy"
+                    alt="Clams being tossed in a pan"
+                  />
+                </picture>
+                <figcaption>
+                  <h3 class="fs-500 fw-bold uppercase">About this meal</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam egestas egestas dignissim.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <h2
+            class="clr-primary-500 fs-800 ff-accent text-center margin-block-end-32"
+          >
+            What our clients are saying about us
+          </h2>
+
+          <div class="even-columns">
+            <div class="card card--testimonial | box-shadow-1 text-center">
+              <picture>
+                <source srcset="assets/testimonial-01.avif" type="image/avif" />
+                <source srcset="assets/testimonial-01.webp" type="image/webp" />
+                <img
+                  src="assets/testimonial-01.jpg"
+                  alt="A man standing outside, smiling"
+                />
+              </picture>
+              <div class="card__body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam egestas egestas dignissim. Quisque pretium nisi a
+                  rhoncus posuere. Ut posuere mauris nisl, sed consequat orci
+                  ultrices ac. Fusce et elit et nisl eleifend hendrerit. Nulla
+                  ac aliquam mauris. Aenean quam lacus, auctor eu lacus.
+                </p>
+              </div>
+              <div class="testimonial__footer | padding-16 bg-neutral-200">
+                <p class="fs-500 clr-primary-500 fw-bold">John Deer</p>
+                <p>Manager at FoodCo.</p>
+              </div>
+            </div>
+
+            <div class="card card--testimonial | box-shadow-1 text-center">
+              <picture>
+                <source srcset="assets/testimonial-01.avif" type="image/avif" />
+                <source srcset="assets/testimonial-01.webp" type="image/webp" />
+                <img
+                  src="assets/testimonial-01.jpg"
+                  alt="A man standing outside, smiling"
+                />
+              </picture>
+              <div class="card__body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam egestas egestas dignissim. Quisque pretium nisi a
+                  rhoncus posuere. Ut posuere mauris nisl, sed consequat orci
+                  ultrices ac. Fusce et elit et nisl eleifend hendrerit. Nulla
+                  ac aliquam mauris. Aenean quam lacus, auctor eu lacus.
+                </p>
+              </div>
+              <div class="testimonial__footer | padding-16 bg-neutral-200">
+                <p class="fs-500 clr-primary-500 fw-bold">John Deer</p>
+                <p>Manager at FoodCo.</p>
+              </div>
+            </div>
+
+            <div class="card card--testimonial | box-shadow-1 text-center">
+              <picture>
+                <source srcset="assets/testimonial-01.avif" type="image/avif" />
+                <source srcset="assets/testimonial-01.webp" type="image/webp" />
+                <img
+                  src="assets/testimonial-01.jpg"
+                  alt="A man standing outside, smiling"
+                />
+              </picture>
+              <div class="card__body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam egestas egestas dignissim. Quisque pretium nisi a
+                  rhoncus posuere. Ut posuere mauris nisl, sed consequat orci
+                  ultrices ac. Fusce et elit et nisl eleifend hendrerit. Nulla
+                  ac aliquam mauris. Aenean quam lacus, auctor eu lacus.
+                </p>
+              </div>
+              <div class="testimonial__footer | padding-16 bg-neutral-200">
+                <p class="fs-500 clr-primary-500 fw-bold">John Deer</p>
+                <p>Manager at FoodCo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer
+      class="primary-footer section | bg-neutral-900 clr-neutral-100 text-center flow"
+    >
+      <div class="container">
+        <p class="fw-bold">Homecooked mealsdelivered straight to your door</p>
+        <p>©2022 Persronal Chef Services</p>
+        <p>555 Boulevard Anywhere, Montreal, Quebec, J1S 1S9 | 123-555-1234</p>
+      </div>
+    </footer>
 
     <script type="module" src="/main.js"></script>
   </body>

@@ -1,0 +1,27 @@
+@use "../abstracts/" as *;
+
+.card {
+  display: grid;
+
+  &__body {
+    padding: $card-body-padding;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &--testimonial &__body {
+    position: relative;
+
+    &::after {
+      content: "\201C";
+      position: absolute;
+      z-index: -1;
+      font-size: 25rem;
+      font-family: $ff-accent;
+      top: -7rem;
+      left: 0;
+      opacity: 0.2;
+    }
+  }
+}
