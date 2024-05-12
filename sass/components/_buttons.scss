@@ -1,13 +1,21 @@
 @use "../abstracts/" as *;
 
 .button {
-  display: inline-flex;
+  border: 0;
   cursor: pointer;
+  display: inline-flex;
+  padding: 1.125em 2em;
+  transition: 275ms ease;
+
+  line-height: 1;
+  font-weight: $fw-bold;
   text-decoration: none;
   text-transform: uppercase;
-  line-height: 1;
-  border: 0;
-  padding: 1.125em 2em;
+
+  &:is(:hover, :focus) {
+    background: clr(neutral, 100);
+    color: clr(neutral, 900);
+  }
 
   &--accent {
     background-color: clr(primary, 400);
